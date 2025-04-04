@@ -192,3 +192,70 @@ input {
     top: 75px;
     color: #f80000;
 }
+
+/* phone */
+@media(max-width:500px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    nav h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .container .first {
+        font-size: 20px;
+    }
+
+    .container #sign-on-header {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+    }
+
+    input {
+        height: 90px;
+        width: 250px;
+    }
+
+    .container span {
+        font-size: 15px;
+        position: relative;
+        top: 115px;
+    }
+
+    #signOn i {
+        font-size: 150px;
+    }
+
+    #signOn h2 {
+        font-size: 15px;
+    }
+
+    #signOn p {
+        font-size: 15px;
+    }
+
+    #signOn a {
+        font-size: 15px;
+    }
+
+
+    #signOn span {
+        font-size: 15px;
+
+    }
+
+    .btn {
+        width: 250px;
+        height: 60px;
+    }
+}
