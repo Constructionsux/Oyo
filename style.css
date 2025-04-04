@@ -152,6 +152,17 @@ input {
     }
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: orangered;
+    color: #fff;
+    height: 220px;
+
+    padding-top: 40px;
+    padding-left: 50px;
+
+}
 
 #signOn i {
     font-size: 350px;
@@ -185,7 +196,7 @@ input {
     border-bottom: 3px solid #000;
 }
 
-#signOn span {
+span {
     font-size: 25px;
     font-weight: bolder;
     position: relative;
@@ -195,9 +206,28 @@ input {
 
 /* phone */
 @media(max-width:500px) {
+    * {
+        padding-bottom: 40px;
+    }
+
     body {
         overflow-y: scroll;
+        height: 100%;
+
+
     }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: orangered;
+        color: #fff;
+        height: 220px;
+        padding-top: 40px;
+        padding-left: 50px;
+
+    }
+
 
     nav h1 {
         font-size: 25px;
@@ -205,18 +235,19 @@ input {
 
     .container {
         width: 300px;
+        height: 600px;
     }
 
     .container .first {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .container #sign-on-header {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 15px;
+        font-size: 20px;
         position: relative;
         top: 15px;
     }
@@ -226,10 +257,15 @@ input {
         width: 250px;
     }
 
-    .container span {
+    .container .ss {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .container .ss span {
         font-size: 15px;
         position: relative;
-        top: 115px;
+
     }
 
     #signOn i {
@@ -248,11 +284,17 @@ input {
         font-size: 15px;
     }
 
+    #signOn .ss {
+        display: flex;
+        padding-left: 20px;
+    }
 
-    #signOn span {
+    #signOn .ss span {
         font-size: 15px;
+        position: relative;
 
     }
+
 
     .btn {
         width: 250px;
