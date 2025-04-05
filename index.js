@@ -8,8 +8,8 @@ function getinput() {
 
 
 const anothertextp = document.getElementById('anothertext');
-let x = Math.floor(Math.random() * 2000 + 1);
-anothertextp.innerText = "Your ID Number is YOUTH20251D234" + x;
+let x = Math.floor(Math.random() * 2001 );
+anothertextp.innerText = "Your ID Number is YOUTH2025ID234" + x;
 
 const signUpinput = document.getElementById('SignupButton');
 const signUpdiv = document.getElementById('signUp');
