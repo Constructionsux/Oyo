@@ -189,7 +189,7 @@ nav {
     position: relative;
     top: 45px;
     color: transparent;
-    background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+    background-image: linear-gradient(to right, #f00, #ff0, #000, #0ff, #0f0, #00f);
     background-clip: text;
     animation: animate 20s linear infinite;
     background-size: 1000%;
