@@ -188,8 +188,26 @@ nav {
     font-weight: bolder;
     position: relative;
     top: 45px;
-    color: #000;
+    color: transparent;
+    background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+    background-clip: text;
+    animation: animate 20s linear infinite;
+    background-size: 1000%;
     text-decoration: none;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
 }
 
 #signOn a:hover {
@@ -281,7 +299,26 @@ span {
     }
 
     #signOn a {
-        font-size: 15px;
+        font-size: 17px;
+        color: transparent;
+        background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
+        background-clip: text;
+        animation: animate 20s linear infinite;
+        background-size: 1000%;
+    }
+
+    @keyframes animate {
+        0% {
+            background-position: 0% 100%;
+        }
+
+        50% {
+            background-position: 100% 0%;
+        }
+
+        100% {
+            background-position: 0% 100%;
+        }
     }
 
     #signOn .ss {
